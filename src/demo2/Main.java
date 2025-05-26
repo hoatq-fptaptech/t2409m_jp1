@@ -1,5 +1,7 @@
 package demo2;
 
+import demo3.Man;
+
 public class Main {
     public static void main(String[] args){
         Car c1 = new Car();
@@ -17,6 +19,7 @@ public class Main {
         sc1.nitro = "N2";
         sc1.run();
         sc1.speedUp();
-
+        Man m = new Man();
+        m.drink();
     }
 }
